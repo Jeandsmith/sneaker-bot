@@ -2,7 +2,7 @@
 
 What it does:
 - given site, search terms, size, and quantity:
-  - finds products whose titles contain all seacrh terms
+  - finds products whose titles contain all search terms
   - add given quantity of each product to cart
     - same quantity for all products for now (something to work on)
   - print cart information (pretty format)
