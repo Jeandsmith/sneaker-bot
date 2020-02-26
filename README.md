@@ -12,11 +12,10 @@ What it does:
   - print session token (will be needed for checkout)
   
 What it doesn't do:
-- checkout cart
-  - needed:
-    - create checkout, obtain checkout token
-      - (I've actually been able to get this before, but my method doesn't work consistently **¯\\\_(ツ)_/¯** )
-    - post shipping, billing address
-    - get shipping rates given zip code (from shipping address), select rate
-    - post payment (using token from vault)
-    - complete checkout?
+- checkout cart:
+  - create checkout, obtain checkout token
+    - (I've actually been able to get this before, but my method doesn't work consistently **¯\\\_(ツ)_/¯** )
+  - post shipping, billing address
+  - get shipping rates given zip code (from shipping address), select rate
+  - post payment (using token from vault)
+  - complete checkout?
